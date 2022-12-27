@@ -1,0 +1,24 @@
+.container{
+  /* max-width: 400px; */
+  /* margin:auto; */
+  /* border-radius:10px; */
+  /* background:#3bb19b; */
+  /* padding:20px; */
+  /* text-align: center; */
+  /* margin-top:200px; */
+
+  /* padding: 0; */
+  margin: 0;
+  outline: none;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
+  color: #666;
+  /* padding: 16px 0; */
+  padding: 2rem;
+  text-align:left;
+  border:1px solid #666
+
+}
+.form{
+  display:block;
+}
