@@ -18,10 +18,12 @@
   "name": "noderesumeapp",
   "version": "1.0.0",
   "main": "index.js",
+  "engines": {
+    "node": "19.3.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "heroku-postbuild": "npm install && cd client && npm install && npm run build"
+    "start": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -34,8 +36,6 @@
     "url": "https://github.com/Noorulain142/resume_node_project/issues"
   },
   "homepage": "https://github.com/Noorulain142/resume_node_project#readme",
-  "description": "",
-  "engines": {
-    "node": "19.3.0"
-  }
+  "description": "
+
 }
