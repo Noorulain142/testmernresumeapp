@@ -13,20 +13,22 @@ function App() {
 
   return (
     <Routes>
-      {user && <Route path="/" exact element={<Main />} />}
+      <Route path="/" exact element={<Login />} />
+      {/* {user && <Route path="/" exact element={<Main />} />}
       <Route path="/signup" exact element={<Signup />} />
       <Route path="/login" exact element={<Login />} />
       <Route path="/" exact element={<Navigate replace to="/login" />} />
       <Route path="/add" exact element={<AddResume />} />
-      <Route path="/:resumeId/show" exact element={<ShowResume />} />
+      <Route path="/:resumeId/show" exact element={<ShowResume />} /> */}
+
       {/* <Route path="/:resumeId/update" exact element={<UpdateResume />} /> */}
-      <Route path="/portfolio" exact element={<Portfolio />} />
+      {/* <Route path="/portfolio" exact element={<Portfolio />} /> */}
       {/* <Route path="/create" exact element={<CreatePortfolio />} /> */}
-      <Route
+      {/* <Route
         path="/:portfolioId/portfolioShow"
         exact
         element={<ShowPortfolio />}
-      />
+      /> */}
     </Routes>
   );
 }
