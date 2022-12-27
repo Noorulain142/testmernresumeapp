@@ -29,7 +29,7 @@ if (process.env.NODE_ENV === 'production') {
   app.use(express.static('client'));
 }
 
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 8080;
 app.listen(port, () => {
   console.log("App is running on port " + port);
 });
